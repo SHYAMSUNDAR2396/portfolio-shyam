@@ -92,9 +92,6 @@ const GoogleAnalytics = dynamic(
 const WebVitals = dynamic(() => import("@/components/common/WebVitals"), {
   ssr: false,
 });
-const FloatingNavbar = dynamic(
-  () => import("@/components/navbar/FloatingNavbar")
-);
 const ScrollToTop = dynamic(() => import("@/components/common/ScrollToTop"));
 
 const isDebug = process.env.NODE_ENV === "development";
@@ -106,7 +103,6 @@ const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
 
       <body className={isDebug ? "debug-screens" : ""}>
         {isDebug ? <WebVitals /> : null}
-        <FloatingNavbar className="app_nav" navItems={navMenus} />
         <main>{children}</main>
         <ScrollToTop />
       </body>
