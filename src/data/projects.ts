@@ -6,7 +6,7 @@ const projects: IProjectItem[] = [
     title: "JET",
     description:
       "Mobile Application for Blockchain based startup in Chennai - JustEverything",
-    icon: "/skills/react.svg",
+    icon: "./skills/react.svg",
     repoType: RepoType.Private,
     projectType: ProjectType.JobWork,
     githubUrl: "https://github.com/Madan94/JET-CARGO-APP",
@@ -17,7 +17,7 @@ const projects: IProjectItem[] = [
     title: "BLockPay",
     description:
       "A Crypto-UPI mobile application developed using React, Node, Firebase and solidity.",
-    icon: "/skills/react.svg",
+    icon: "./skills/react.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/SHYAMSUNDAR2396/BlockPay",
@@ -29,7 +29,7 @@ const projects: IProjectItem[] = [
     title: "Login-Page",
     description:
       "An Login-Page application developed using Flutter, Dart",
-    icon: "/skills/flutter.svg",
+    icon: "./skills/flutter.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/SHYAMSUNDAR2396/login_page",
@@ -41,7 +41,7 @@ const projects: IProjectItem[] = [
     title: "e-commerce bookstore",
     description:
       "A e-commerce bookstore developed using React and Next.",
-    icon: "/skills/react.svg",
+    icon: "./skills/react.svg",
     repoType: RepoType.Private,
     projectType: ProjectType.Freelance,
     githubUrl: "https://github.com/Madan94/GeniusTute",
