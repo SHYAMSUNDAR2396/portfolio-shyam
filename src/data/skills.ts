@@ -125,9 +125,14 @@ const skills: ISkillListItem[] = [
     title: "Miscellaneous",
     items: [
       {
-        title: "Ubuntu",
+        title: "Arch",
         level: SkillLevel.Intermediate,
         icon: "./skills/archlinux-icon.svg",
+      },
+      {
+        title: "Ubuntu",
+        level: SkillLevel.Intermediate,
+        icon: "./skills/ubuntu.png",
       },
     ],
   },
