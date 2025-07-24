@@ -127,7 +127,7 @@ const skills: ISkillListItem[] = [
       {
         title: "Ubuntu",
         level: SkillLevel.Intermediate,
-        icon: "./skills/ubuntu.png",
+        icon: "./skills/archlinux-icon.svg",
       },
     ],
   },
